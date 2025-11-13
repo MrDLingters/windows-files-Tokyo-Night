@@ -1,39 +1,3 @@
-<h3 align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://files.community">Files</a>
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-</h3>
-
-<p align="center">
-	<a href="https://github.com/catppuccin/files/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/files?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/files/issues"><img src="https://img.shields.io/github/issues/catppuccin/files?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/files/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/files?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
-</p>
-
-<p align="center">
-	<img src="assets/preview.webp"/>
-</p>
-
-## Previews
-
-<details>
-<summary>🌻 Latte</summary>
-<img src="assets/latte.webp"/>
-</details>
-<details>
-<summary>🪴 Frappé</summary>
-<img src="assets/frappe.webp"/>
-</details>
-<details>
-<summary>🌺 Macchiato</summary>
-<img src="assets/macchiato.webp"/>
-</details>
-<details>
-<summary>🌿 Mocha</summary>
-<img src="assets/mocha.webp"/>
-</details>
-
 ## Usage
 
 1. Download the 3rd party [Files](https://files.community/download) application.
