@@ -18,9 +18,9 @@ $palette = [ordered]@{
         "crust"  = "#181926"
     }
     "TokyoNightDark" = @{
-        "base"   = "#1a1b26"
-        "mantle" = "#24283b"
-        "crust"  = "#343B58"
+        "base"   = "#24283b"
+        "mantle" = "#1a1b26"
+        "crust"  = "#1a1b26"
     }
 }
 
