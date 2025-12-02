@@ -17,10 +17,10 @@ $palette = [ordered]@{
         "mantle" = "#1e2030"
         "crust"  = "#181926"
     }
-    "mocha" = @{
-        "base"   = "#1e1e2e"
-        "mantle" = "#181825"
-        "crust"  = "#11111b"
+    "TokyoNightDark" = @{
+        "base"   = "#1a1b26"
+        "mantle" = "#24283b"
+        "crust"  = "#343B58"
     }
 }
 
