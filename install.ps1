@@ -31,7 +31,7 @@ foreach ($flavor in $palette.Keys) {
     $i++
 }
 
-$flavor = $Host.UI.PromptForChoice("Flavor", "Which flavor do you want to use?", $flavorChoices, 3)
+$flavor = $Host.UI.PromptForChoice("Flavor", "Which flavor do you want to use?", $flavorChoices, 1)
 $colors = $palette[$flavor]
 
 $flatAppearance = $Host.UI.PromptForChoice("Appearance", "Do you want to use the flat appearance?", ('&Yes', '&No'), 1)
