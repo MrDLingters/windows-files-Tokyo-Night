@@ -9,7 +9,7 @@
 2. Run the `./install.ps1` script, either by downloading it manually, or in a single command:
 
    ```ps1
-   . { Invoke-WebRequest -UseBasicParsing https://github.com/catppuccin/windows-files/raw/main/install.ps1 } | iex
+   . { Invoke-WebRequest -UseBasicParsing https://github.com/MrDLingters/windows-files-Tokyo-Night/blob/main/install.ps1 } | iex
    ```
 
 3. Choose your preferred options in the install script.
