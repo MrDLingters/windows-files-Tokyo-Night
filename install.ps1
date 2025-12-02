@@ -2,10 +2,25 @@ Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
 $palette = [ordered]@{
-    "Dark" = @{
-        "base"   = "#1a1b26"
+    "latte" = @{
+        "base"   = "#eff1f5"
         "mantle" = "#e6e9ef"
         "crust"  = "#dce0e8"
+    }
+    "frappe" = @{
+        "base"   = "#303446"
+        "mantle" = "#292c3c"
+        "crust"  = "#232634"
+    }
+    "macchiato" = @{
+        "base"   = "#24273a"
+        "mantle" = "#1e2030"
+        "crust"  = "#181926"
+    }
+    "mocha" = @{
+        "base"   = "#1e1e2e"
+        "mantle" = "#181825"
+        "crust"  = "#11111b"
     }
 }
 
@@ -16,7 +31,7 @@ foreach ($flavor in $palette.Keys) {
     $i++
 }
 
-$flavor = $Host.UI.PromptForChoice("Flavor", "Which flavor do you want to use?", $flavorChoices, 0)
+$flavor = $Host.UI.PromptForChoice("Flavor", "Which flavor do you want to use?", $flavorChoices, 3)
 $colors = $palette[$flavor]
 
 $flatAppearance = $Host.UI.PromptForChoice("Appearance", "Do you want to use the flat appearance?", ('&Yes', '&No'), 1)
